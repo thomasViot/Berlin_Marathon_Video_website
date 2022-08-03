@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 *, ::before, ::after{
     box-sizing: border-box;
     margin: 0;
@@ -8,12 +9,31 @@ body{
     background-color: #9BC1BC;
 }
 
+h1, p{
+    font-family: 'Roboto', sans-serif;
+}
+
+svg{
+    position: relative;
+    z-index: -5;
+    top: -700px;
+    right: 200px;
+}
+
 
 header{
     display: flex;
     flex-direction: row;
     margin-top: 50px;
     margin-left: 20px;
+}
+
+
+hr{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #header-title{
@@ -51,5 +71,6 @@ header{
     left: 50%;
     right: 50%;
     width: 60%;
-    margin-top: -100px;
+    margin-top: -1100px;
+    z-index: 2;
 }
