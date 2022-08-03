@@ -7,6 +7,7 @@
 
 body{
     background-color: #9BC1BC;
+    overflow-x: hidden; 
 }
 
 h1, p{
@@ -41,6 +42,8 @@ hr{
 }
 
 
+
+
 #header-title > h3 {
     text-align: center;
 }
@@ -73,4 +76,36 @@ hr{
     width: 60%;
     margin-top: -1100px;
     z-index: 2;
+}
+
+
+/* second page */
+
+
+.description-img {
+    display: flex;
+}
+
+.description-img > img{
+    width: 15%;
+    object-fit:cover;
+}
+
+/* third page */
+
+.photoetlogo > img {
+    width: 10%;
+}
+
+
+/* fourth page */
+
+body > main > div.forth-page > img{
+    width: 10%;
+}
+
+
+
+#participer > img{
+    width:10%
 }
